@@ -1,10 +1,10 @@
 main{
-    margin-top: 120px;
+    margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
     min-width: 500px;
     display: flex; /* Ativa o modelo de layout Flexbox */
-    justify-content: right; /* Alinha os itens horizontalmente ao centro */
+    justify-content: left; /* Alinha os itens horizontalmente ao centro */
     align-items: center; /* Alinha os itens verticalmente ao centro */
 }
 
@@ -26,7 +26,7 @@ main{
 }
 
 .logo-corpo{
-    width: 500px;
+    max-width: 100%;
     border-radius: 20px;
 }
 
@@ -36,6 +36,7 @@ main{
     justify-content: center; /* Alinha os itens verticalmente no centro */
     text-align: justify; /* Justifica o texto */
     text-indent: 20px;
+    max-width: 600px;
 }
 
 h1 {
