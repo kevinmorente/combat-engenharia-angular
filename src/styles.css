@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: url("./assets/fundo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
