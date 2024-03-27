@@ -1,9 +1,9 @@
 <nav [ngClass]="{'open': isMenuOpen}">
     <ul>
-        <li><a routerLink="" (click)="toggleMenu()">INÍCIO</a></li>
-        <li><a routerLink="/servicos" (click)="toggleMenu()">SERVIÇOS</a></li>
-        <li><a routerLink="/clientes" (click)="toggleMenu()">CLIENTES</a></li>
-        <li><a routerLink="/contato" (click)="toggleMenu()">CONTATO</a></li>
+        <li><a routerLink="" (click)="toggleMenu(); scrollToTop()">INÍCIO</a></li>
+        <li><a routerLink="/servicos" (click)="toggleMenu(); scrollToTop()">SERVIÇOS</a></li>
+        <li><a routerLink="/clientes" (click)="toggleMenu(); scrollToTop()">CLIENTES</a></li>
+        <li><a routerLink="/contato" (click)="toggleMenu(); scrollToTop()">CONTATO</a></li>
     </ul>
   </nav>
 <button (click)="toggleMenu()">MENU</button>

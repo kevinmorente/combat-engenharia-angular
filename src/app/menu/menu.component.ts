@@ -10,4 +10,7 @@ export class MenuComponent {
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
   }
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Isso faz a página subir ao topo suavemente
+  }
 }
