@@ -15,7 +15,7 @@ main{
     padding: 10px;
     background-color: hsla(0, 0%, 100%, 0.90);
     min-height: 350px;
-    width: 1500px;
+    max-width: 1500px;
     display: flex;
     gap: 10px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;

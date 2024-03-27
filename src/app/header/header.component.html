@@ -2,17 +2,18 @@
     <div class="interface">
         <div class="logo">
             <a routerLink="">
-                <img class="logocomobat" src="../../assets/img/logocombat.jpg" alt="LOGO COMBAT">
+                <img class="logocomobat" src="../../assets/img/COMBATT-logo-only.png" alt="LOGO COMBAT">
             </a>
         </div>
         <div class="nome">
             <h1>Combatt Engenharia</h1>
         </div>
+        <app-menu id="menu-hb"></app-menu>
         <nav>
             <ul id="menu">
-                <li><a routerLink="">INÍCIO</a></li>
-                <li><a routerLink="/servicos">SERVIÇOS</a></li>
-                <li><a routerLink="/clientes">CLIENTES</a></li>
+                <li><a routerLink="" (click)="scrollToTop()">INÍCIO</a></li>
+                <li><a routerLink="/servicos" (click)="scrollToTop()">SERVIÇOS</a></li>
+                <li><a routerLink="/clientes" (click)="scrollToTop()">CLIENTES</a></li>
             </ul>
         </nav>
         <div class="btn-contato">

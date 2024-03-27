@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './body.component.css'
 })
 export class BodyComponent {
-
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Isso faz a página subir ao topo suavemente
+  }
 }

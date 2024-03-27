@@ -8,7 +8,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
-    background-color: rgba(255, 0, 0, 0.849);
+    background-color: rgba(0, 0, 0, 0.849);
     height: 100px;
     gap: 20px;
     align-items: center;
@@ -20,7 +20,8 @@ header{
 }
 
 .logocomobat{
-    width: 100px;
+    width: 80px;
+    border-radius: 10px;
 }
 
 nav ul{
@@ -50,6 +51,7 @@ a:hover{
 
 h1{
     color: white;
+    margin: 0;
 }
 
 button{
@@ -71,6 +73,12 @@ button:hover{
 
 @media (max-width: 1300px) {
     #menu{
+        display: none;
+    }
+}
+
+@media (min-width: 1300px) {
+    #menu-hb{
         display: none;
     }
 }
