@@ -53,6 +53,8 @@ h1, h4 {
     display: flex;
     flex-direction: column;
     justify-content: center; /* Alinha os itens verticalmente no centro */
+    gap: 10px;
+    justify-content:space-around;
 }
 
 button{
@@ -71,4 +73,9 @@ button{
 button:hover{
     font-size: 25px;
     transition: font-size 0.3s; /* Transição para a cor durante 0.3 segundos */
+}
+
+mark{
+    background-color: #fffb00; /* Defina a cor de fundo desejada */
+    opacity: 1; /* Defina a intensidade desejada (0 = totalmente transparente, 1 = totalmente opaco) */
 }
