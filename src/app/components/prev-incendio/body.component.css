@@ -79,3 +79,6 @@ mark{
     background-color: #fffb00; /* Defina a cor de fundo desejada */
     opacity: 1; /* Defina a intensidade desejada (0 = totalmente transparente, 1 = totalmente opaco) */
 }
+span{
+    color: red;
+}
